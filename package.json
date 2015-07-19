@@ -1,0 +1,31 @@
+{
+  "name": "es6-tests",
+  "version": "1.0.0",
+  "description": "Just messing about with ES6",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha \"test/**/*-test.js\" --compilers js:babel/register --require \"test/helpers/helper.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DaveKin/es6-tests.git"
+  },
+  "author": "Dave Kinsella",
+  "license": "No License",
+  "bugs": {
+    "url": "https://github.com/DaveKin/es6-tests/issues"
+  },
+  "homepage": "https://github.com/DaveKin/es6-tests",
+  "devDependencies": {
+    "babel": "^5.6.23",
+    "babel-core": "^5.7.4",
+    "chai": "^3.1.0",
+    "mocha": "^2.2.5",
+    "node-libs-browser": "^0.5.2",
+    "sinon": "^1.15.4",
+    "sinon-chai": "^2.8.0"
+  }
+}
